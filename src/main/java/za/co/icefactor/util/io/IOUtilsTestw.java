@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 /**
  * Created by justice on 2017/02/09.
  */
-public class IOUtilsTest {
+public class IOUtilsTestw {
 
 //    @Test(expected = RuntimeException.class)
     @Test
