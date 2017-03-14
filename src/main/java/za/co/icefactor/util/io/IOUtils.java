@@ -155,7 +155,7 @@ public class IOUtils {
         try {
             return Files.readAllLines(path);
         } catch (IOException e) {
-            throw new RuntimeException(String.format("Unable to read file: " + path.getFileName(), e));
+            throw new RuntimeException(String.format("Unable to read file: %s", path.getFileName(), e));
         }
     }
 }
